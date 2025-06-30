@@ -57,7 +57,11 @@ export default function HomePage() {
       />
     </section>
   );
-
   /* ------------------------------  页面渲染  ------------------------------ */
-  return (
-    <main className="mx-auto max-w-screen-sm space-y-8 p-4">
+return (
+  <main className="mx-auto max-w-screen-sm space-y-8 p-4">
+    <AvatarSection />
+    <MoodSection />
+  </main>
+);
+}
